@@ -1,0 +1,13 @@
+const openBtns = document.querySelectorAll(".openModal");
+const closeBtn = document.getElementById("closeModal");
+const modal = document.getElementById("modal");
+
+openBtns.forEach(button => {
+  button.addEventListener("click", () => {
+    modal.classList.add("open");
+  });
+});
+
+closeBtn.addEventListener("click", () => {
+  modal.classList.remove("open");
+});

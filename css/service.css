@@ -1,0 +1,223 @@
+
+
+.services_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 62px 0px;
+  }
+  
+  .welcome{
+    font-size: 42px!important; 
+    font-weight: 700;
+    color: #111 !important;
+  
+  }
+  
+  .welcome_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;     
+    margin-top: 30px;
+    gap: 10px;
+    max-width: 900px;
+    border-width: 2px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  .welcome_text p{
+    color: #222;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  
+.apply-button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 12px 30px;
+    background: var(--green);
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+.apply-button img{
+    filter: invert(100%);
+    margin-left: 10px;
+    position: relative;
+    display: inline-block !important;
+    height: 1.3rem;
+}
+.apply-button:hover {
+    transform:scale(1.03);
+    transition: 0.3s;
+    box-shadow: 2px 9px 6px -6px rgb(91, 206, 82);
+    opacity: 1.2;
+}
+
+  
+  .services-img {
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    object-fit: contain; 
+    margin: 0 auto; 
+    margin-top: 0.9rem;
+  }
+  
+  .drink_tea {
+    width: 310px !important;
+  }
+  
+  .services_title {
+    position: relative;
+  }
+  
+  .services_card {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 0.9rem;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    transition: 0.2s;
+  }
+  .stars {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 24px;
+    color: gold;
+    position: relative;
+  }
+  
+  .half-star::after {
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: gold;
+  }
+  
+  .services_card:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0.5rem 0.75rem 1.4rem #a6d877;
+    
+  }
+  .services_card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .image-container{
+    z-index: 1;
+    border: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #ececec;
+  }
+  
+  .services_card-text {
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    background-color: white;
+  }
+  
+  .detail-btn{
+    border: 1.5px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--green);
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3); 
+    padding: 10px 15px;
+    color: var(--green);
+    border-radius: 3px;
+  }
+  
+  .card_line{
+    color: #333;
+    width: 98%; 
+    margin: auto; 
+  }
+  
+  .discription p{
+    color: #191919;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .services_card-text h4{
+    margin-top: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+  
+  }
+  
+  .services_card-text p {
+    margin-top: 7px;    
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .order_now {
+    background: var(--green);   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+  }
+  
+  .order_now img{
+    position: relative;
+    display: inline-block !important;
+    height: 0.9rem;
+    vertical-align: middle;
+  }
+  
+  
+  @media screen and (max-width: 700px) {  
+    .section-title {
+        font-size: 32px;
+    }   
+    .welcome{
+        text-align: start;
+        font-size: 28px !important;
+    }
+    .welcome_text p {        
+        text-align: start;
+        line-height: 1.5;
+        font-size: 16px;    
+    }    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+    }
+  }
