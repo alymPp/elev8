@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 767px){
     .main-banner{
-        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(https://dinaraelev8.com/ImagesB/modile-bg.avif);
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../ImagesB/modile-bg.avif);
         display: flex;
         flex-direction: column;
         justify-content: center;
