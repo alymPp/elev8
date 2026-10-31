@@ -29,23 +29,3 @@ function closeSidebar(){
 }
 
 updateNavbar(media)
-
-const swiper = new Swiper('.js-reviews-slider', {
-  grabCursor: true,
-  spaceBetween: 30,
- 
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  on: {
-    init: function () {
-        document.querySelector('.swiper-pagination').style.position = 'static';
-    }
-  },
-  breakpoints: {
-    767:{
-      slidesPerView: 2
-    }
-  }
-})

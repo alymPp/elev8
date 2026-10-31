@@ -69,8 +69,8 @@
     transform: scale(1.2);
     transition: all 0.4s ease;
 }
-    
-}
+
+
 
 @media (max-width:900px){
     .main-banner__content h1{
@@ -84,9 +84,7 @@
 
 @media screen and (max-width: 767px){
     .main-banner{
-        background:
-         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
-         url('../ImagesB/modile-bg.avif');
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../ImagesB/modile-bg.avif);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -150,23 +148,6 @@
         padding: 20px;
         display: flex;
         flex-direction: row !important;
-    }
-
-    .echofy-text-section {
-        padding: 0 0 30px ;    
-    }
-
-    .echofy-text-section .marquee-block .content-box h6.title img {
-        position: relative;
-        left: -49px;
-        bottom: -22px;
-    }
-    .echofy-text-section .marquee-block .content-box h6.title {
-        display: inline-block;
-        font-size: 20px;
-        color: #fff;
-        font-weight: 500;
-        gap: 20px;
     }
 }
 
